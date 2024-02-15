@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">IMC</string>
+=======
+    <string name="app_name">TP1</string>
+>>>>>>> 1394675fcc5ececc88f38b362cf428d740164bec
 </resources>

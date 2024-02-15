@@ -5,11 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="#EBE6D9"
+=======
+>>>>>>> 1394675fcc5ececc88f38b362cf428d740164bec
     android:orientation="vertical"
     tools:context=".MainActivity">
 
 
+<<<<<<< HEAD
     <TextView
         android:id="@+id/id8"
         android:layout_width="wrap_content"
@@ -20,6 +24,8 @@
         android:textColor="#6840C5"
         android:textSize="24sp" />
 
+=======
+>>>>>>> 1394675fcc5ececc88f38b362cf428d740164bec
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -71,6 +77,7 @@
 
     </LinearLayout>
 
+<<<<<<< HEAD
     <Button
         android:id="@+id/id3"
         android:layout_width="wrap_content"
@@ -85,5 +92,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/tt" />
+=======
+        <Button
+            android:id="@+id/id3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CALCULER IMC"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="100dp"/>
+
+        <TextView
+            android:id="@+id/id4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="7dp" />
+>>>>>>> 1394675fcc5ececc88f38b362cf428d740164bec
 
 </LinearLayout>

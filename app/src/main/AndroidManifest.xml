@@ -10,7 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TP1">
         <activity
+<<<<<<< HEAD
             android:name=".loading"
+=======
+            android:name=".MainActivity"
+>>>>>>> 1394675fcc5ececc88f38b362cf428d740164bec
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,10 +22,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".login">
         </activity>
         <activity android:name=".MainActivity">
         </activity>
+=======
+>>>>>>> 1394675fcc5ececc88f38b362cf428d740164bec
     </application>
 
 </manifest>

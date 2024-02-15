@@ -7,7 +7,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+<<<<<<< HEAD
 import android.widget.Toast;
+=======
+>>>>>>> 1394675fcc5ececc88f38b362cf428d740164bec
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,6 +18,10 @@ public class MainActivity extends AppCompatActivity {
     EditText e1 ;
     EditText e2 ;
     Button b1 ;
+<<<<<<< HEAD
+=======
+    TextView result ;
+>>>>>>> 1394675fcc5ececc88f38b362cf428d740164bec
 
     private double height ;
     private double weight ;
@@ -33,6 +40,10 @@ public class MainActivity extends AppCompatActivity {
         e1 = (EditText) findViewById(R.id.id1) ;
         e2 = (EditText) findViewById(R.id.id2) ;
         b1 = (Button) findViewById(R.id.id3) ;
+<<<<<<< HEAD
+=======
+        result = (TextView) findViewById(R.id.id4) ;
+>>>>>>> 1394675fcc5ececc88f38b362cf428d740164bec
 
 
         b1.setOnClickListener(new View.OnClickListener() {
@@ -45,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                         imc = CalculateIMC(weight, height);
 
                         if (imc < 16) {
+<<<<<<< HEAD
                             Toast.makeText(MainActivity.this, "Votre IMC est :" + imc + "Vous etes trop maigre", Toast.LENGTH_SHORT).show();
                         } else if (imc < 18.5) {
                             Toast.makeText(MainActivity.this, "Votre IMC est :" + imc + "Vous etes trop maigre", Toast.LENGTH_SHORT).show();
@@ -62,6 +74,25 @@ public class MainActivity extends AppCompatActivity {
                 }
                 catch (Exception e){
                     Toast.makeText(MainActivity.this, "Erreur", Toast.LENGTH_SHORT).show();
+=======
+                            result.setText("Votre IMC est :" + imc + "Vous etes trop maigre");
+                        } else if (imc < 18.5) {
+                            result.setText("Votre IMC est :" + imc + "Vous etes trop maigre");
+                        } else if (imc < 25) {
+                            result.setText("Votre IMC est :" + imc + "Vous etes trop normal");
+                        } else if (imc < 30) {
+                            result.setText("Votre IMC est :" + imc + "Vous etes Gros(se)");
+                        } else {
+                            result.setText("Votre IMC est :" + imc + "Vous etes Obése");
+                        }
+                    }
+                    else{
+                        result.setText("Remplir les cases SVP");
+                    }
+                }
+                catch (Exception e){
+                    result.setText("Erreur");
+>>>>>>> 1394675fcc5ececc88f38b362cf428d740164bec
                 }
             }
         });
