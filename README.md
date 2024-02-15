@@ -1,5 +1,5 @@
-# IMC Calculator 
-## A small app that can be utilized as a calculator for IMC.
+# IMC Calculator (VERSION 1)
+## A small app that can be utilized as a calculator for IMC. 
 ##### To describe my project I use the CAR method (C : Chalenge , A : Action , R : Result)
 ###### C : So the challenge is to develop a small application that will serve as a calculator IMC, the application will determine the index IMC of the user from his weight and height..
 ###### A : I developed this app using Android. So I change some configuration in the manifest and I used java for the action and receive the information from the front app mobile, also I used xml to coding the design and I use the drag and drop method .
